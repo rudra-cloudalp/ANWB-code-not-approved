@@ -1,0 +1,79 @@
+{
+    "name": "PDP360Views",
+    "fantasyName": "360 Views in PDP",
+    "vendor": "RudraCustomization",
+    "version": "1.0.0",
+    "type": "extension",
+    "target": "SCS,SCA",
+    "target_version": {
+        "SCS": ">=21.2.0",
+        "SCA": ">=21.2.0"
+    },
+    "description": "Adding 360 views item image in PDP",
+    "skins": [],
+    "assets": {
+        "img": {
+            "files": []
+        },
+        "fonts": {
+            "files": []
+        },
+        "services": {
+            "files": [
+                "services/PDP360Views.Service.ss"
+            ]
+        }
+    },
+    "configuration": {
+        "files": [
+            "Modules/PDP360Views/Configuration/PDP360Views.json"
+        ]
+    },
+    "sass": {
+        "entry_points": {
+            "shopping": "Modules/PDP360Views/Sass/_pdp360views-pdp360views.scss"
+        },
+        "files": [
+            "Modules/PDP360Views/Sass/_pdp360views-pdp360views.scss"
+        ]
+    },
+    "templates": {
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/PDP360Views/Templates/rudracustomization_pdp360views_pdp360views.tpl",
+                    "Modules/PDP360Views/Templates/pdp360buttonview.tpl",
+                    "Modules/PDP360Views/Templates/pdp360custom_view.tpl"
+                ]
+            }
+        }
+    },
+    "javascript": {
+        "entry_points": {
+            "shopping": "Modules/PDP360Views/JavaScript/RudraCustomization.PDP360Views.PDP360Views.js"
+        },
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/PDP360Views/JavaScript/RudraCustomization.PDP360Views.PDP360Views.js",
+                    "Modules/PDP360Views/JavaScript/PDP360Views.View.js",
+                    "Modules/PDP360Views/JavaScript/RudraCustomization.PDP360Views.PDP360Views.Model.js",
+                    "Modules/ModelViewers/JavaScript/modelViewers.js",
+                    "Modules/PDP360Views/JavaScript/PDP360ButtonView.View.js",
+                    "Modules/PDP360Views/JavaScript/PDP360CustomView.View.js"
+                ]
+            }
+        }
+    },
+    "ssp-libraries": {
+        "entry_point": "Modules/PDP360Views/SuiteScript/RudraCustomization.PDP360Views.PDP360Views.js",
+        "files": [
+            "Modules/PDP360Views/SuiteScript/RudraCustomization.PDP360Views.PDP360Views.js",
+            "Modules/PDP360Views/SuiteScript/PDP360Views.ServiceController.js"
+        ]
+    },
+    "local_folder": "Workspace\\PDP360Views",
+    "suitescript2": {
+        "files": []
+    }
+}

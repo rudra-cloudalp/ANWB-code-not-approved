@@ -1,0 +1,84 @@
+{
+    "name": "CustomCasesNew",
+    "fantasyName": "Custom Cases New",
+    "vendor": "RudraCustomization",
+    "version": "1.0.0",
+    "type": "extension",
+    "target": "SCA,SCS",
+    "target_version": {
+        "SCA": ">=21.1.0",
+        "SCS": ">=21.1.0"
+    },
+    "description": "Custom Cases New for upload document in netsuite",
+    "skins": [],
+    "assets": {
+        "img": {
+            "files": []
+        },
+        "fonts": {
+            "files": []
+        },
+        "services": {
+            "files": [
+                "services/CustomCasesNew.Service.ss",
+                "services/CustomCasesNewList.Service.ss"
+            ]
+        }
+    },
+    "configuration": {
+        "files": [
+            "Modules/CustomCasesNew/Configuration/CustomCasesNew.json"
+        ]
+    },
+    "sass": {
+        "entry_points": {
+            "myaccount": "Modules/CustomCasesNew/Sass/_customcasesnew-customcasesnew.scss"
+        },
+        "files": [
+            "Modules/CustomCasesNew/Sass/_customcasesnew-customcasesnew.scss"
+        ]
+    },
+    "templates": {
+        "application": {
+            "myaccount": {
+                "files": [
+                    "Modules/CustomCasesNew/Templates/rudracustomization_customcasesnew_customcasesnew.tpl",
+                    "Modules/CustomCasesNew/Templates/cases_list_view_new.tpl"
+                ]
+            }
+        }
+    },
+    "javascript": {
+        "entry_points": {
+            "myaccount": "Modules/CustomCasesNew/JavaScript/RudraCustomization.CustomCasesNew.CustomCasesNew.js"
+        },
+        "application": {
+            "myaccount": {
+                "files": [
+                    "Modules/CustomCasesNew/JavaScript/RudraCustomization.CustomCasesNew.CustomCasesNew.js",
+                    "Modules/CustomCasesNew/JavaScript/CustomCasesNew.View.js",
+                    "Modules/CustomCasesNew/JavaScript/RudraCustomization.CustomCasesNew.CustomCasesNew.Model.js",
+                    "Modules/CustomCasesNew/JavaScript/RudraCustomization.CustomCasesNew.CustomCasesNew.SS2Model.js",
+                    "Modules/CustomCasesNew/JavaScript/RudraCustomization.CustomCasesNew.ValidateModel.Model.js",
+                    "Modules/CustomCasesNew/JavaScript/CustomCasesNewList.View.js",
+                    "Modules/CustomCasesNew/JavaScript/CustomCasesNew.Collection.js"
+                ]
+            }
+        }
+    },
+    "ssp-libraries": {
+        "entry_point": "Modules/CustomCasesNew/SuiteScript/RudraCustomization.CustomCasesNew.CustomCasesNew.js",
+        "files": [
+            "Modules/CustomCasesNew/SuiteScript/RudraCustomization.CustomCasesNew.CustomCasesNew.js",
+            "Modules/CustomCasesNew/SuiteScript/CustomCasesNew.ServiceController.js",
+            "Modules/CustomCasesNew/SuiteScript/RudraCustomization.CustomCasesNew.Model.js",
+            "Modules/CustomCasesNew/SuiteScript/CustomCasesNewList.ServiceController.js"
+        ]
+    },
+    "local_folder": "Workspace\\CustomCasesNew",
+    "suitescript2": {
+        "files": [
+            "Modules/CustomCasesNew/SuiteScript2/CustomCasesNew.Service.ss"
+        ]
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "name": "PLPItemImageSlider",
+    "fantasyName": "Slider In PLP ",
+    "vendor": "RudraCustomization",
+    "version": "1.0.0",
+    "type": "extension",
+    "target": "SCA,SCS",
+    "target_version": {
+        "SCA": ">=21.2.0",
+        "SCS": ">=21.2.0"
+    },
+    "description": "Slider In PLP On hover effect",
+    "skins": [],
+    "assets": {
+        "img": {
+            "files": []
+        },
+        "fonts": {
+            "files": []
+        },
+        "services": {
+            "files": [
+                "services/PLPItemImageSlider.Service.ss"
+            ]
+        }
+    },
+    "configuration": {
+        "files": [
+            "Modules/PLPItemImageSlider/Configuration/PLPItemImageSlider.json"
+        ]
+    },
+    "sass": {
+        "entry_points": {
+            "shopping": "Modules/PLPItemImageSlider/Sass/_plpitemimageslider-plpitemimageslider.scss"
+        },
+        "files": [
+            "Modules/PLPItemImageSlider/Sass/_plpitemimageslider-plpitemimageslider.scss",
+            "Modules/PLPItemImageSlider/Sass/_slick-theme.scss",
+            "Modules/PLPItemImageSlider/Sass/_slick.scss"
+        ]
+    },
+    "templates": {
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/PLPItemImageSlider/Templates/rudracustomization_plpitemimageslider_plpitemimageslider.tpl",
+                    "Modules/PLPItemImageSlider/Templates/plp_custom_colorpallets.tpl"
+                ]
+            }
+        }
+    },
+    "javascript": {
+        "entry_points": {
+            "shopping": "Modules/PLPItemImageSlider/JavaScript/RudraCustomization.PLPItemImageSlider.PLPItemImageSlider.js"
+        },
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/PLPItemImageSlider/JavaScript/RudraCustomization.PLPItemImageSlider.PLPItemImageSlider.js",
+                    "Modules/PLPItemImageSlider/JavaScript/PLPItemImageSlider.View.js",
+                    "Modules/PLPItemImageSlider/JavaScript/RudraCustomization.PLPItemImageSlider.PLPItemImageSlider.Model.js",
+                    "Modules/jquery.slick/Javascript/jquery.slick.js",
+                    "Modules/PLPItemImageSlider/JavaScript/PLPColorPalletsCustom.View.js"
+                ]
+            }
+        }
+    },
+    "ssp-libraries": {
+        "entry_point": "Modules/PLPItemImageSlider/SuiteScript/RudraCustomization.PLPItemImageSlider.PLPItemImageSlider.js",
+        "files": [
+            "Modules/PLPItemImageSlider/SuiteScript/RudraCustomization.PLPItemImageSlider.PLPItemImageSlider.js",
+            "Modules/PLPItemImageSlider/SuiteScript/PLPItemImageSlider.ServiceController.js"
+        ]
+    },
+    "local_folder": "Workspace\\PLPItemImageSlider",
+    "suitescript2": {
+        "files": []
+    }
+}

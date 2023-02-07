@@ -1,0 +1,43 @@
+
+@import "_slick.scss";
+@import "_slick-theme.scss";
+.append-carosoul{
+	display: none;
+	overflow: hidden;
+}
+.Data_Hidden{
+	display: block;
+}
+.append-carosoul.plp-slides{
+	display: block;
+}
+.custom-facets-item-cell-grid-quick-view-wrapper-container{
+	z-index: 10 !important;
+}
+.custom-facets-item-cell-table-quick-view-wrapper-container{
+	z-index: 10 !important;
+}
+.custom-facets-item-cell-list-quick-view-wrapper-container{
+	z-index: 10 !important;
+}
+.custom-facets-items-cell-grid-link-image-container{
+	display: none !important;
+}
+.custom-facets-items-cell-table-link-container{
+	display: none !important;
+}
+.custom-facets-items-cell-list-anchor-container{
+	display: none !important;
+}
+
+
+// slick slider settings
+.slick-dots{
+	transition: all 0.3s ease-in-out ;
+	// box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.35);
+}
+.slick-dots.hover-animated{
+	background-color: #fff;
+	bottom: 0 !important;
+}
+

@@ -1,0 +1,20 @@
+/*
+	Sass Application Entry Point
+	Link all your sass dependencies in the right order
+
+	Example:
+	@import "other-sass-file.scss";
+	@import "../../<other module>/Sass/other-sass-file.scss";
+*/ 
+
+.attached-file-cases{
+	@extend .input-large;
+	background-color: white;
+}
+.list-of-cases-condition{
+	margin-left: $sc-margin-lv1;
+	li{
+
+		list-style: disc !important;
+	}
+}

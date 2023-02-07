@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": { 
+        "PDP360Views.config": {
+            "group": "extensions",
+            "subtab": "PDP360Views_subtab",
+            "type": "string",
+            "title": "PDP360Views_Title",
+            "description": "Config description example",
+            "default": "Default config example"
+        }
+    }
+}

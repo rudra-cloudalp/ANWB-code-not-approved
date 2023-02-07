@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": { 
+        "CustomCasesNew.config": {
+            "group": "extensions",
+            "subtab": "CustomCasesNew_subtab",
+            "type": "string",
+            "title": "CustomCasesNew_Title",
+            "description": "Config description example",
+            "default": "Default config example"
+        }
+    }
+}
